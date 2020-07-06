@@ -35,8 +35,8 @@ Versicherungsverträge
 # the problem is that in 309 sometimes the dl is inside a DIV and not directly inside the parent dd. it is even worse
 # that sometimes the first div is not the one cotaining the dl but a title... so we have to find that first div which
 # does not contain the title
-# TODO: DONE? stop satz number from being updated on Nummern (should be updated only on sentences of Absaetze)
-# TODO: DONE? decide what to do with the continuations of the Nummern / Buchstaben etc.
+# TODO: DONE! stop satz number from being updated on Nummern (should be updated only on sentences of Absaetze)
+# TODO: DONE! decide what to do with the continuations of the Nummern / Buchstaben etc.
 """
 Currently the most precise separation is done on absatz level -> the absatz is split into sentences if there
 is one single sub-norm box. For the Nummern and other sub-norms there is currently another solution : the whole
